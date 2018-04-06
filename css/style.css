@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #222;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+#experience{
+  padding-top: 10px;
+  grid-column: 2;
+  grid-row: 1/ span 3;
+}
+
+#education{
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#skills {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+#related{
+  grid-column: 1;
+  grid-row: 2;
+}
+
+header{
+  background-color: rgb(181, 223, 251);
+}
+
+section,
+footer {
+  border: 1px solid #999;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+body{
+  margin-right: 0;
+}
+
+h1{
+  margin-bottom: 10px;
+  margin-top: 40px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: black;
+}
+
+
+h2{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: black;
+  background-color: rgb(181, 223, 251);
+  padding-left: 10px;
+}
+
+h3{
+padding-left: 10px;
+font-family: 'Oswald', serif;
+font-weight: 300;
+color: black;
+}
+
+nav ul{
+padding-left: 0;
+list-style: none;
+}
+
+nav li{
+display: inline-block;
+margin-right: 20px;
+}
+
+
+nav li a{
+color:black;
+font-family: 'Playfair Display', serif;
+font-weight: 500;
+}
+
+nav li a:hover{
+  color: rgb(102, 175, 222);
+}
+
+h3,
+p {
+  padding-left: 10px;
+  margin: 0;
+}
+
+article{
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+
+a{
+  color:black;
+  margin-right: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+a :hover{
+  color: rgb (102, 175, 222);
+}
+
+a :visited{
+  color: rgb(72,97,115);
+}
+
+
+header{
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+img{
+  padding-left: 140px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+
+}
